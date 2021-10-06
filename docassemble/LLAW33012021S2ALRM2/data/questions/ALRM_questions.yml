@@ -1,0 +1,52 @@
+question: What is you client initals?
+fields:
+  - no label: ALRMinitals
+---
+question: What is the clinets age?
+fields:
+  - no label: ALRMage
+    datatype: integer
+---
+question: What is the clinets gender?
+fields:
+  - no label: ALRMgender
+    datatype: radio
+    choices:
+      - Male: M
+      - Female: F   
+---
+question: Category
+subquestion: |
+  Please select the categories which best describes the clients issue/s
+
+  
+  You may select more than one category
+fields:
+  - no label: ALRMkeyterm
+    datatype: checkboxes
+    choices:
+      - Family violence: violence
+      - Mental Health: mental
+      - Drug or alcohol abuse: substance
+      - Homelessness: homeless
+      - Need of an address for bail: bail
+      - Finacial: finace
+      - Disability (Intellectual): disintellect
+      - Disability (Physical): disphysical
+      - Medical Health: medical 
+---
+
+question: Location
+subquestion: |
+  Please select the location or locations in which you are looking
+  for services.
+  
+  You may select more than one location
+fields:
+  - no label: ALRMlocation
+    datatype: checkboxes
+    choices:
+      - Metropolitan Adelaide (within a 20km radius): metro
+      - Port Augusta or Ceduna: APY
+      - Port Adelaide: port
+---

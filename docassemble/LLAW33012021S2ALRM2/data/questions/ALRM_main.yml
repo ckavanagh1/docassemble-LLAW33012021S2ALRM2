@@ -1,0 +1,76 @@
+---
+include:
+  - ALRM_questions.yml
+  - ALRM_iteration.yml
+  - ALRM_services_data.yml
+---
+objects:
+  - ALRMselected_services: DAList.using(there_are_any=True, auto_gather=False)
+---
+mandatory: True
+code: |
+  ALRMdisplay_welcome_screen
+  
+  ALRMdisplay_final_screen
+  
+---
+code: |
+  ALRMdisplay_welcome_screen = True
+  force_ask('ALRMwelcome_screen')
+---
+event: ALRMwelcome_screen
+question: Welcome
+subquestion: |
+    Welcome to the Criminal Service Providers ('CPS') Connect Application.
+buttons:
+  - I want to continue: continue
+  - I do not want to continue: exit
+---
+event: ALRMdisplay_final_screen
+question: Here is a list of your services
+subquestion: |
+  Thankyou for completing the CSP connect survey.
+  
+  Question|Answer
+  ---|---
+  Client intials|${ALRMinitals}
+  Age|${ALRMage}
+  Gender|${ALRMgender}
+  Category|${ALRMkeyterm.true_values()}
+  Locations Selected|${ALRMlocation.true_values()}
+   
+  The referal for ${ALRMinitals} 
+  ${ALRMselected_services_table}
+  
+attachment:
+  docx template file: Referral_for_Client.docx
+  valid formats:
+  - pdf
+  
+buttons:
+  - Restart: restart
+  - Exit: exit
+---
+table: ALRMselected_services_table
+rows: ALRMselected_services
+columns:
+  - Organisation: |
+      row_item['organisation']
+  - Service: |
+      row_item['service']
+  - Website: |
+      row_item['website']
+  - Phone: |
+      row_item['phone']
+  - Email: |
+      row_item['email']  
+  - Address: |
+      row_item['address']
+  - Age Range: |
+      'From {} to {}'.format(row_item['min_age'], row_item['max_age'])
+  - Gender: |
+      row_item['gender']
+  - Category: |
+      row_item['category']
+
+---

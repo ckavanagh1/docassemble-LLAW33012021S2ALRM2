@@ -1,0 +1,34 @@
+---
+code: |
+  for ALRMa_service in ALRMservices:
+    # Criteria tests
+    if ALRMa_service['min_age'] <= ALRMage <= ALRMa_service['max_age']:
+      ALRMage_ok = True
+    else:
+      ALRMage_ok = False
+      
+    # Gender
+    if ALRMgender in ALRMa_service['gender']:
+      ALRMgender_ok = True
+    else:
+      ALRMgender_ok = False
+     
+    # keyterm
+    ALRMkeyterm_ok = False
+    for ALRMa_keyterm in ALRMkeyterm.true_values():
+      if ALRMa_keyterm in ALRMa_service['keyterm']:
+        ALRMkeyterm_ok = True
+
+    # Location
+    ALRMlocation_ok = False
+    for ALRMa_location in ALRMlocation.true_values():
+      if ALRMa_location in ALRMa_service['location']:
+        ALRMlocation_ok = True
+      
+    # Eligibility test
+    if ALRMage_ok and ALRMgender_ok and ALRMkeyterm_ok and ALRMlocation_ok:
+      ALRMselected_services.append(ALRMa_service)
+      
+      
+  ALRMselected_services.gathered = True
+---
