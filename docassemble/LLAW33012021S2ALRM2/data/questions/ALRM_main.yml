@@ -42,10 +42,6 @@ subquestion: |
   The referal for ${ALRMinitals} 
   ${ALRMselected_services_table}
   
-attachment:
-  docx template file: Referral_for_Client.docx
-  valid formats:
-  - pdf
   
 buttons:
   - Restart: restart
@@ -70,7 +66,7 @@ columns:
       'From {} to {}'.format(row_item['min_age'], row_item['max_age'])
   - Gender: |
       row_item['gender']
-  - Category: |
-      row_item['category']
+  - Keyterm: |
+      row_item['keyterm']
 
 ---

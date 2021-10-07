@@ -57,8 +57,8 @@ data:
     ###
   - organisation: Aboriginal Sobriety Group
     service: Mobile Assistance Patrol (Map) Service
-    min age: 2
-    max age: 100
+    min_age: 2
+    max_age: 100
     gender: 
       - M
       - F
@@ -71,8 +71,8 @@ data:
     ###
   - organisation: Aboriginal Sobriety Group
     service: WAASHS Homelessness Service
-    min age: 2
-    max age: 100
+    min_age: 2
+    max_age: 100
     gender: 
       - M
       - F
@@ -85,8 +85,8 @@ data:
     ###
   - organisation: Aboriginal Community Connect
     service: Community Residential Rehabilitation Program Service
-    min age: 2
-    max age: 100
+    min_age: 2
+    max_age: 100
     gender: 
       - M
       - F
@@ -99,8 +99,8 @@ data:
     ###
   - organisation: Aboriginal Community Connect
     service: Community Residential Rehabilitation Program Service
-    min age: 2
-    max age: 100
+    min_age: 2
+    max_age: 100
     gender:
       - M
       - F
@@ -113,8 +113,8 @@ data:
     ###
   - organisation: Aboriginal Community Connect
     service: Community Residential Rehabilitation Program Service
-    min age: 2
-    max age: 100
+    min_age: 2
+    max_age: 100
     gender:
       - M
       - F
@@ -127,8 +127,8 @@ data:
     ###
   - organisation: Aboriginal Community Connect
     service: Community Residential Rehabilitation Program Service
-    min age: 2
-    max age: 100
+    min_age: 2
+    max_age: 100
     gender:
       - M
       - F
@@ -141,8 +141,8 @@ data:
     ###
   - organisation: Relationships Australia
     service: Children & Parenting Support, Family Support Services
-    min age: 2
-    max age: 100
+    min_age: 2
+    max_age: 100
     gender: 
       - M
       - F
@@ -155,9 +155,9 @@ data:
     ###
   - organisation: Relationships Australia
     service: Family Mental Health Support, Counselling Services
-    min age: 2
-    max age: 100
-    gender:
+    min_age: 2
+    max_age: 100
+    gender: 
       - M
       - F
     location: metro
@@ -167,738 +167,858 @@ data:
     email: NA
     address: NA
     ###
-  - Organisation: Relationships Australia
-    Service: Gambling Support
-    Min age: 2
-    Max age: 100
-    Gender:
+  - organisation: Relationships Australia
+    service: Gambling Support
+    min_age: 2
+    max_age: 100
+    gender: 
       - M
       - F
-    Location: metro
-    Keyterm: Financial
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8223 4566
-    Email: NA
-    Address: NA
+    location: metro
+    keyterm: finance
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8223 4566
+    email: NA
+    address: NA
     ###
-  - Organisation: Relationships Australia
-    Service: Children & Parenting Support, Family Support Services
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Western Suburbs
-    Keyterm: Family Violence
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8245 8100
-    Email: NA
-    Address: 49A Orsmond Street, Hindmarsh SA 5007
+  - organisation: Relationships Australia
+    service: Children & Parenting Support, Family Support Services
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: violence
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8245 8100
+    email: NA
+    address: 49A Orsmond Street, Hindmarsh SA 5007
     ###
-  - Organisation: Relationships Australia
-    Service: Family Mental Health Support, Counselling Services
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Western Suburbs
-    Keyterm: Mental Health
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8245 8100
-    Email: NA
-    Address: 49A Orsmond Street, Hindmarsh SA 5007
+  - organisation: Relationships Australia
+    service: Family Mental Health Support, Counselling Services
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metros
+    keyterm: mental
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8245 8100
+    email: NA
+    address: 49A Orsmond Street, Hindmarsh SA 5007
     ###
-  - Organisation: Relationships Australia
-    Service: Gambling Support
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Western Suburbs
-    Keyterm: Financial
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8245 8100
-    Email: NA
-    Address: 49A Orsmond Street, Hindmarsh SA 5007
+  - organisation: Relationships Australia
+    service: Gambling Support
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: finance
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8245 8100
+    email: NA
+    address: 49A Orsmond Street, Hindmarsh SA 5007
     ###
-  - Organisation: Relationships Australia
-    Service: Children & Parenting Support, Family Support Services
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Western Suburbs
-    Keyterm: Family Violence
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8245 8100
-    Email: NA
-    Address: 8 Butler Street, Port Adelaide SA 5015
+  - organisation: Relationships Australia
+    service: Children & Parenting Support, Family Support Services
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: violence
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8245 8100
+    email: NA
+    address: 8 Butler Street, Port Adelaide SA 5015
     ###
-  - Organisation: Relationships Australia
-    Service: Family Mental Health Support, Counselling Services
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Western Suburbs
-    Keyterm: Mental Health
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8245 8100
-    Email: NA
-    Address: 8 Butler Street, Port Adelaide SA 5015
+  - organisation: Relationships Australia
+    service: Family Mental Health Support, Counselling Services
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: mental
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8245 8100
+    email: NA
+    address: 8 Butler Street, Port Adelaide SA 5015
     ###
-  - Organisation: Relationships Australia
-    Service: Gambling Support
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Western Suburbs
-    Keyterm: Financial
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8245 8100
-    Email: NA
-    Address: 8 Butler Street, Port Adelaide SA 5015
+  - organisation: Relationships Australia
+    service: Gambling Support
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: finance
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8245 8100
+    email: NA
+    address: 8 Butler Street, Port Adelaide SA 5015
     ###
-  - Organisation: Relationships Australia
-    Service: Children & Parenting Support, Family Support Services
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Southern Suburbs
-    Keyterm: Family Violence
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8377 5400
-    Email: NA
-    Address: 297 Diagonal Road, Oaklands Park SA 5046
+  - organisation: Relationships Australia
+    service: Children & Parenting Support, Family Support Services
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: violence
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8377 5400
+    email: NA
+    address: 297 Diagonal Road, Oaklands Park SA 5046
     ###
-  - Organisation: Relationships Australia
-    Service: Gambling Support
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Southern Suburbs
-    Keyterm: Financial
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8377 5400
-    Email: NA
-    Address: 297 Diagonal Road, Oaklands Park SA 5046
+  - organisation: Relationships Australia
+    service: Gambling Support
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: finance
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8377 5400
+    email: NA
+    address: 297 Diagonal Road, Oaklands Park SA 5046
     ###
-  - Organisation: Relationships Australia
-    Service: Children & Parenting Support, Family Support Services
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Family Violence
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8255 3323
-    Email: NA
-    Address: 13 Elizabeth Way, Elizabeth SA 5112
+  - organisation: Relationships Australia
+    service: Children & Parenting Support, Family Support Services
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: violence
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8255 3323
+    email: NA
+    address: 13 Elizabeth Way, Elizabeth SA 5112
     ###
-  - Organisation: Relationships Australia
-    Service: Family Mental Health Support, Counselling Services
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Mental Health
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8255 3323
-    Email: NA
-    Address: 13 Elizabeth Way, Elizabeth SA 5112
+  - organisation: Relationships Australia
+    service: Family Mental Health Support, Counselling Services
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: mental
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8255 3323
+    email: NA
+    address: 13 Elizabeth Way, Elizabeth SA 5112
     ###
-  - Organisation: Relationships Australia
-    Service: Gambling Support
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Financial
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8255 3323
-    Email: NA
-    Address: 13 Elizabeth Way, Elizabeth SA 5112
+  - organisation: Relationships Australia
+    service: Gambling Support
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: finance
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8255 3323
+    email: NA
+    address: 13 Elizabeth Way, Elizabeth SA 5112
     ###
-  - Organisation: Relationships Australia
-    Service: Children & Parenting Support, Family Support Services
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Family Violence
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8250 6600
-    Email: NA
-    Address: 2 Roder Ct, St Agnes SA 5097
+  - organisation: Relationships Australia
+    service: Children & Parenting Support, Family Support Services
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: violence
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8250 6600
+    email: NA
+    address: 2 Roder Ct, St Agnes SA 5097
     ###
-  - Organisation: Relationships Australia
-    Service: Family Mental Health Support, Counselling Services
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Mental Health
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8250 6600
-    Email: NA
-    Address: 2 Roder Ct, St Agnes SA 5097
+  - organisation: Relationships Australia
+    service: Family Mental Health Support, Counselling Services
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: mental
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8250 6600
+    email: NA
+    address: 2 Roder Ct, St Agnes SA 5097
     ###
-  - Organisation: Relationships Australia
-    Service: Gambling Support
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Financial
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8250 6600
-    Email: NA
-    Address: 2 Roder Ct, St Agnes SA 5097
+  - organisation: Relationships Australia
+    service: Gambling Support
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: finance
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8250 6600
+    email: NA
+    address: 2 Roder Ct, St Agnes SA 5097
     ###
-  - Organisation: Relationships Australia
-    Service: Children & Parenting Support, Family Support Services
-    Age: X
-    Gender: X
-    Region: Riverland
-    Location: Berri
-    Keyterm: Family Violence
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8582 4122
-    Email: NA
-    Address: 9 Kay Avenue, Berri SA 5343
+  - organisation: Relationships Australia
+    service: Children & Parenting Support, Family Support Services
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: violence
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8582 4122
+    email: NA
+    address: 9 Kay Avenue, Berri SA 5343
     ###
-  - Organisation: Relationships Australia
-    Service: Family Mental Health Support, Counselling Services
-    Age: X
-    Gender: X
-    Region: Riverland
-    Location: Berri
-    Keyterm: Mental Health
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8582 4122
-    Email: NA
-    Address: 9 Kay Avenue, Berri SA 5343
+  - organisation: Relationships Australia
+    service: Family Mental Health Support, Counselling Services
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: mental
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8582 4122
+    email: NA
+    address: 9 Kay Avenue, Berri SA 5343
     ###
-  - Organisation: Relationships Australia
-    Service: Gambling Support
-    Age: X
-    Gender: X
-    Region: Riverland
-    Location: Berri
-    Keyterm: Financial
-    Website: https://www.rasa.org.au/services/post-separation/support-services/
-    Phone: (08) 8582 4122
-    Email: NA
-    Address: 9 Kay Avenue, Berri SA 5343
+  - organisation: Relationships Australia
+    service: Gambling Support
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: finance
+    website: https://www.rasa.org.au/services/post-separation/support-services/
+    phone: (08) 8582 4122
+    email: NA
+    address: 9 Kay Avenue, Berri SA 5343
     ###
-  - Organisation: Centacare
-    Service: Homelessness
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: X
-    Keyterm: Homelessness
-    Website: https://www.centacare.org.au/services/ , https://www.centacare.org.au/where-we-are/
-    Phone: (08) 8215 6700
-    Email: NA
-    Address: NA
+  - organisation: Centacare
+    service: Homelessness
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: homeless
+    website: https://www.centacare.org.au/services/ , https://www.centacare.org.au/where-we-are/
+    phone: (08) 8215 6700
+    email: NA
+    address: NA
     ###
-  - Organisation: Centacare
-    Service: Disability
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: X
-    Keyterm: Disability (Intellectual)
-    Website: https://www.centacare.org.au/services/ , https://www.centacare.org.au/where-we-are/
-    Phone: (08) 8215 6700
-    Email: NA
-    Address: NA
+  - organisation: Centacare
+    service: Disability
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: disintellect
+    website: https://www.centacare.org.au/services/ , https://www.centacare.org.au/where-we-are/
+    phone: (08) 8215 6700
+    email: NA
+    address: NA
     ###
-  - Organisation: Centacare
-    Service: Disability
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: X
-    Keyterm: Disability (Physical)
-    Website: https://www.centacare.org.au/services/ , https://www.centacare.org.au/where-we-are/
-    Phone: (08) 8215 6700
-    Email: NA
-    Address: NA
+  - organisation: Centacare
+    service: Disability
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: disphysical
+    website: https://www.centacare.org.au/services/ , https://www.centacare.org.au/where-we-are/
+    phone: (08) 8215 6700
+    email: NA
+    address: NA
     ###
-  - Organisation: Centacare
-    Service: Family, Youth and Children
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: X
-    Keyterm: Family Violence
-    Website: https://www.centacare.org.au/services/ , https://www.centacare.org.au/where-we-are/
-    Phone: (08) 8215 6700
-    Email: fdr@centacare.org.au
-    Address: NA
+  - organisation: Centacare
+    service: Family, Youth and Children
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: violence
+    website: https://www.centacare.org.au/services/ , https://www.centacare.org.au/where-we-are/
+    phone: (08) 8215 6700
+    email: fdr@centacare.org.au
+    address: NA
     ###
-  - Organisation: Centacare
-    Service: Homelessness
-    Age: X
-    Gender: X
-    Region: Regional
-    Location: X
-    Keyterm: Homelessness
-    Website: https://www.centacare.org.au/services/ , https://www.centacare.org.au/where-we-are/
-    Phone: (08) 8215 6700
-    Email: NA
-    Address: NA
+  - organisation: Centacare
+    service: Homelessness
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: homeless
+    website: https://www.centacare.org.au/services/ , https://www.centacare.org.au/where-we-are/
+    phone: (08) 8215 6700
+    email: NA
+    address: NA
     ###
-  - Organisation: Centacare
-    Service: Disability
-    Age: X
-    Gender: X
-    Region: Regional
-    Location: X
-    Keyterm: Disability (Intellectual)
-    Website: https://www.centacare.org.au/services/ , https://www.centacare.org.au/where-we-are/
-    Phone: (08) 8215 6700
-    Email: NA
-    Address: NA
+  - organisation: Centacare
+    service: Disability
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: disintellect
+    website: https://www.centacare.org.au/services/ , https://www.centacare.org.au/where-we-are/
+    phone: (08) 8215 6700
+    email: NA
+    address: NA
     ###
-  - Organisation: Centacare
-    Service: Disability
-    Age: X
-    Gender: X
-    Region: Regional
-    Location: X
-    Keyterm: Disability (Physical)
-    Website: https://www.centacare.org.au/services/ , https://www.centacare.org.au/where-we-are/
-    Phone: (08) 8215 6700
-    Email: NA
-    Address: NA
+  - organisation: Centacare
+    service: Disability
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: disphysical
+    website: https://www.centacare.org.au/services/ , https://www.centacare.org.au/where-we-are/
+    phone: (08) 8215 6700
+    email: NA
+    address: NA
     ###
-  - Organisation: Centacare
-    Service: Family, Youth and Children
-    Age: X
-    Gender: X
-    Region: Regional
-    Location: X
-    Keyterm: Family Violence
-    Website: https://www.centacare.org.au/services/ , https://www.centacare.org.au/where-we-are/
-    Phone: (08) 8215 6700
-    Email: fdr@centacare.org.au
-    Address: NA
+  - organisation: Centacare
+    service: Family, Youth and Children
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: violence
+    website: https://www.centacare.org.au/services/ , https://www.centacare.org.au/where-we-are/
+    phone: (08) 8215 6700
+    email: fdr@centacare.org.au
+    address: NA
     ###
-  - Organisation: Australian Government Health Services - Watto Purrunna 
-    Service: Muna Paiendi (Medical Health Services)
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Medical Health
-    Website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
-    Phone: (08) 8182 9206
-    Email: NA
-    Address: Corner of Mark Road and Oldham Road, Elizabeth Vale, SA 5112
+  - organisation: Australian Government Health Services - Watto Purrunna 
+    service: Muna Paiendi (Medical Health Services)
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: medical
+    website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
+    phone: (08) 8182 9206
+    email: NA
+    address: Corner of Mark Road and Oldham Road, Elizabeth Vale, SA 5112
     ###
-  - Organisation: Australian Government Health Services - Watto Purrunna 
-    Service: Muna Paiendi (Wellbeing Support, Counselling, Case Management)
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Mental Health
-    Website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
-    Phone: (08) 8182 9206
-    Email: NA
-    Address: Corner of Mark Road and Oldham Road, Elizabeth Vale, SA 5112
+  - organisation: Australian Government Health Services - Watto Purrunna 
+    service: Muna Paiendi (Wellbeing Support, Counselling, Case Management)
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: mental
+    website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
+    phone: (08) 8182 9206
+    email: NA
+    address: Corner of Mark Road and Oldham Road, Elizabeth Vale, SA 5112
     ###
-  - Organisation: Australian Government Health Services - Watto Purrunna 
-    Service: Muna Paiendi (Allied Health Services)
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Disability (Intellectual)
-    Website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
-    Phone: (08) 8182 9206
-    Email: NA
-    Address: Corner of Mark Road and Oldham Road, Elizabeth Vale, SA 5112
+  - organisation: Australian Government Health Services - Watto Purrunna 
+    service: Muna Paiendi (Allied Health Services)
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: disintellect
+    website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
+    phone: (08) 8182 9206
+    email: NA
+    address: Corner of Mark Road and Oldham Road, Elizabeth Vale, SA 5112
     ###
-  - Organisation: Australian Government Health Services - Watto Purrunna 
-    Service: Muna Paiendi (Health Promotion, Care Planning)
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Disability (Physical)
-    Website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
-    Phone: (08) 8182 9206
-    Email: NA
-    Address: Corner of Mark Road and Oldham Road, Elizabeth Vale, SA 5112
+  - organisation: Australian Government Health Services - Watto Purrunna 
+    service: Muna Paiendi (Health Promotion, Care Planning)
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: disphysical
+    website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
+    phone: (08) 8182 9206
+    email: NA
+    address: Corner of Mark Road and Oldham Road, Elizabeth Vale, SA 5112
     ###
-  - Organisation: Australian Government Health Services - Watto Purrunna 
-    Service: Kanggawodil (Medical Health Services)
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Medical Health
-    Website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
-    Phone: (08) 8342 2250
-    Email: NA
-    Address: 16-22 Clements Street, Dudley Park, SA 5008
+  - organisation: Australian Government Health Services - Watto Purrunna 
+    service: Kanggawodil (Medical Health Services)
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: medical
+    website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
+    phone: (08) 8342 2250
+    email: NA
+    address: 16-22 Clements Street, Dudley Park, SA 5008
     ###
-  - Organisation: Australian Government Health Services - Watto Purrunna 
-    Service: Kanggawodil (Wellbeing Support, Counselling, Case Management)
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Mental Health
-    Website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
-    Phone: (08) 8342 2250
-    Email: NA
-    Address: 16-22 Clements Street, Dudley Park, SA 5008
+  - organisation: Australian Government Health Services - Watto Purrunna 
+    service: Kanggawodil (Wellbeing Support, Counselling, Case Management)
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: mental
+    website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
+    phone: (08) 8342 2250
+    email: NA
+    address: 16-22 Clements Street, Dudley Park, SA 5008
     ###
-  - Organisation: Australian Government Health Services - Watto Purrunna 
-    Service: Kanggawodil (Allied Health Services)
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Disability (Intellectual)
-    Website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
-    Phone: (08) 8342 2250
-    Email: NA
-    Address: 16-22 Clements Street, Dudley Park, SA 5008
+  - organisation: Australian Government Health Services - Watto Purrunna 
+    service: Kanggawodil (Allied Health Services)
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: disintellect
+    website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
+    phone: (08) 8342 2250
+    email: NA
+    address: 16-22 Clements Street, Dudley Park, SA 5008
     ###
-  - Organisation: Australian Government Health Services - Watto Purrunna 
-    Service: Kanggawodil (Health Promotion, Care Planning)
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Disability (Physical)
-    Website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
-    Phone: (08) 8342 2250
-    Email: NA
-    Address: 16-22 Clements Street, Dudley Park, SA 5008
+  - organisation: Australian Government Health Services - Watto Purrunna 
+    service: Kanggawodil (Health Promotion, Care Planning)
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: disphysical
+    website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
+    phone: (08) 8342 2250
+    email: NA
+    address: 16-22 Clements Street, Dudley Park, SA 5008
     ###
-  - Organisation: Australian Government Health Services - Watto Purrunna 
-    Service: Maringga Turtpandi (Medical Health Services)
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Medical Health
-    Website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
-    Phone: (08) 7425 8900
-    Email: NA
-    Address: C/o Gilles Plains GP Plus Super Clinic, 1 Gilles Crescent, Hillcrest, SA 5086
+  - organisation: Australian Government Health Services - Watto Purrunna 
+    service: Maringga Turtpandi (Medical Health Services)
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: medical
+    website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
+    phone: (08) 7425 8900
+    email: NA
+    address: C/o Gilles Plains GP Plus Super Clinic, 1 Gilles Crescent, Hillcrest, SA 5086
     ###
-  - Organisation: Australian Government Health Services - Watto Purrunna 
-    Service: Maringga Turtpandi (Wellbeing Support, Counselling, Case Management)
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Mental Health
-    Website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
-    Phone: (08) 7425 8900
-    Email: NA
-    Address: C/o Gilles Plains GP Plus Super Clinic, 1 Gilles Crescent, Hillcrest, SA 5086
+  - organisation: Australian Government Health Services - Watto Purrunna 
+    service: Maringga Turtpandi (Wellbeing Support, Counselling, Case Management)
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: mental
+    website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
+    phone: (08) 7425 8900
+    email: NA
+    address: C/o Gilles Plains GP Plus Super Clinic, 1 Gilles Crescent, Hillcrest, SA 5086
     ###
-  - Organisation: Australian Government Health Services - Watto Purrunna 
-    Service: Maringga Turtpandi (Allied Health Services)
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Disability (Intellectual)
-    Website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
-    Phone: (08) 7425 8900
-    Email: NA
-    Address: C/o Gilles Plains GP Plus Super Clinic, 1 Gilles Crescent, Hillcrest, SA 5086
+  - organisation: Australian Government Health Services - Watto Purrunna 
+    service: Maringga Turtpandi (Allied Health Services)
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: disintellect
+    website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
+    phone: (08) 7425 8900
+    email: NA
+    address: C/o Gilles Plains GP Plus Super Clinic, 1 Gilles Crescent, Hillcrest, SA 5086
     ###
-  - Organisation: Australian Government Health Services - Watto Purrunna 
-    Service: Maringga Turtpandi (Health Promotion, Care Planning)
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Disability (Physical)
-    Website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
-    Phone: (08) 7425 8900
-    Email: NA
-    Address: C/o Gilles Plains GP Plus Super Clinic, 1 Gilles Crescent, Hillcrest, SA 5086
+  - organisation: Australian Government Health Services - Watto Purrunna 
+    service: Maringga Turtpandi (Health Promotion, Care Planning)
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: disphysical
+    website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
+    phone: (08) 7425 8900
+    email: NA
+    address: C/o Gilles Plains GP Plus Super Clinic, 1 Gilles Crescent, Hillcrest, SA 5086
     ###
-  - Organisation: Australian Government Health Services - Watto Purrunna 
-    Service: Wonggangga Turtpandi (Medical Health Services)
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Medical Health
-    Website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
-    Phone: (08) 8240 9611
-    Email: NA
-    Address: 11 Church Street, Port Adelaide, SA 5015
+  - organisation: Australian Government Health Services - Watto Purrunna 
+    service: Wonggangga Turtpandi (Medical Health Services)
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: medical
+    website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
+    phone: (08) 8240 9611
+    email: NA
+    address: 11 Church Street, Port Adelaide, SA 5015
     ###
-  - Organisation: Australian Government Health Services - Watto Purrunna 
-    Service: Wonggangga Turtpandi (Wellbeing Support, Counselling, Case Management)
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Mental Health
-    Website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
-    Phone: (08) 8240 9611
-    Email: NA
-    Address: 11 Church Street, Port Adelaide, SA 5015
+  - organisation: Australian Government Health Services - Watto Purrunna 
+    service: Wonggangga Turtpandi (Wellbeing Support, Counselling, Case Management)
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: mental
+    website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
+    phone: (08) 8240 9611
+    email: NA
+    address: 11 Church Street, Port Adelaide, SA 5015
     ###
-  - Organisation: Australian Government Health Services - Watto Purrunna 
-    Service: Wonggangga Turtpandi (Allied Health Services)
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Disability (Intellectual)
-    Website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
-    Phone: (08) 8240 9611
-    Email: NA
-    Address: 11 Church Street, Port Adelaide, SA 5015
+  - organisation: Australian Government Health Services - Watto Purrunna 
+    service: Wonggangga Turtpandi (Allied Health Services)
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: disintellectual
+    website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
+    phone: (08) 8240 9611
+    email: NA
+    address: 11 Church Street, Port Adelaide, SA 5015
     ###
-  - Organisation: Australian Government Health Services - Watto Purrunna 
-    Service: Wonggangga Turtpandi (Health Promotion, Care Planning)
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Disability (Physical)
-    Website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
-    Phone: (08) 8240 9611
-    Email: NA
-    Address: 11 Church Street, Port Adelaide, SA 5015
+  - organisation: Australian Government Health Services - Watto Purrunna 
+    service: Wonggangga Turtpandi (Health Promotion, Care Planning)
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: disphysical
+    website: https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/health+services+for/aboriginal+health+services/watto+purrunna+aboriginal+primary+health+care+service
+    phone: (08) 8240 9611
+    email: NA
+    address: 11 Church Street, Port Adelaide, SA 5015
     ###
-  - Organisation: Uniting Care Wesley
-    Service: Mental Health
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Mental Health
-    Website: https://ucwb.org.au/
-    Phone: (08) 8245 7100
-    Email: ucwb@ucwb.org.au
-    Address: 77 Gibson St, Bowden SA 5007
+  - organisation: Uniting Care Wesley
+    service: Mental Health
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: mental
+    website: https://ucwb.org.au/
+    phone: (08) 8245 7100
+    email: ucwb@ucwb.org.au
+    address: 77 Gibson St, Bowden SA 5007
     ###
-  - Organisation: Uniting Care Wesley
-    Service: Financial Health
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Financial
-    Website: https://ucwb.org.au/
-    Phone: (08) 8245 7100
-    Email: ucwb@ucwb.org.au
-    Address: 77 Gibson St, Bowden SA 5007
+  - organisation: Uniting Care Wesley
+    service: Financial Health
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: finance
+    website: https://ucwb.org.au/
+    phone: (08) 8245 7100
+    email: ucwb@ucwb.org.au
+    address: 77 Gibson St, Bowden SA 5007
     ###
-  - Organisation: Uniting Care Wesley
-    Service: Homelessness
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Homelessness
-    Website: https://ucwb.org.au/
-    Phone: (08) 8245 7100
-    Email: ucwb@ucwb.org.au
-    Address: 77 Gibson St, Bowden SA 5007
+  - organisation: Uniting Care Wesley
+    service: Homelessness
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: homeless
+    website: https://ucwb.org.au/
+    phone: (08) 8245 7100
+    email: ucwb@ucwb.org.au
+    address: 77 Gibson St, Bowden SA 5007
     ###
-  - Organisation: Uniting Care Wesley
-    Service: Mental Health Carer Support, NDIS
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Disability (Intellectual)
-    Website: https://ucwb.org.au/
-    Phone: (08) 8245 7100
-    Email: ucwb@ucwb.org.au
-    Address: 77 Gibson St, Bowden SA 5007
+  - organisation: Uniting Care Wesley
+    service: Mental Health Carer Support, NDIS
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: disintellect
+    website: https://ucwb.org.au/
+    phone: (08) 8245 7100
+    email: ucwb@ucwb.org.au
+    address: 77 Gibson St, Bowden SA 5007
     ###
-  - Organisation: Uniting Care Wesley
-    Service: Aged Care, NDIS
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Disability (Physical)
-    Website: https://ucwb.org.au/
-    Phone: (08) 8245 7100
-    Email: ucwb@ucwb.org.au
-    Address: 77 Gibson St, Bowden SA 5007
+  - organisation: Uniting Care Wesley
+    service: Aged Care, NDIS
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: disphysical
+    website: https://ucwb.org.au/
+    phone: (08) 8245 7100
+    email: ucwb@ucwb.org.au
+    address: 77 Gibson St, Bowden SA 5007
     ###
-  - Organisation: Lutheran Community Care
-    Service: Counselling
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Mental Health
-    Website: https://www.lccare.org.au/find-help/personal-counselling/
-    Phone: (08) 8269 9300
-    Email: NA
-    Address: NA
+  - organisation: Lutheran Community Care
+    service: Counselling
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: mental
+    website: https://www.lccare.org.au/find-help/personal-counselling/
+    phone: (08) 8269 9300
+    email: NA
+    address: NA
     ###
-  - Organisation: Lutheran Community Care
-    Service: Family Counselling
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: Northern Suburbs
-    Keyterm: Family Violence
-    Website: https://www.lccare.org.au/find-help/personal-counselling/
-    Phone: (08) 8269 9300
-    Email: NA
-    Address: NA
+  - organisation: Lutheran Community Care
+    service: Family Counselling
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: violence
+    website: https://www.lccare.org.au/find-help/personal-counselling/
+    phone: (08) 8269 9300
+    email: NA
+    address: NA
     ###
-  - Organisation: Lutheran Community Care
-    Service: Counselling
-    Age: X
-    Gender: X
-    Region: Regional
-    Location: Murray Bridge
-    Keyterm: Mental Health
-    Website: https://www.lccare.org.au/find-help/personal-counselling/
-    Phone: 0490 660 158
-    Email: NA
-    Address: NA
+  - organisation: Lutheran Community Care
+    service: Counselling
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: mental
+    website: https://www.lccare.org.au/find-help/personal-counselling/
+    phone: 0490 660 158
+    email: NA
+    address: NA
     ###
-  - Organisation: Lutheran Community Care
-    Service: Family Counselling
-    Age: X
-    Gender: X
-    Region: Regional
-    Location: Murray Bridge
-    Keyterm: Family Violence
-    Website: https://www.lccare.org.au/find-help/personal-counselling/
-    Phone: 0490 660 158
-    Email: NA
-    Address: NA
+  - organisation: Lutheran Community Care
+    service: Family Counselling
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: violence
+    website: https://www.lccare.org.au/find-help/personal-counselling/
+    phone: 0490 660 158
+    email: NA
+    address: NA
     ###
-  - Organisation: Lutheran Community Care
-    Service: Counselling
-    Age: X
-    Gender: X
-    Region: Regional
-    Location: X
-    Keyterm: Mental Health
-    Website: https://www.lccare.org.au/find-help/personal-counselling/
-    Phone: (08) 8562 2688
-    Email: NA
-    Address: NA
+  - organisation: Lutheran Community Care
+    service: Counselling
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: mental
+    website: https://www.lccare.org.au/find-help/personal-counselling/
+    phone: (08) 8562 2688
+    email: NA
+    address: NA
     ###
-  - Organisation: Lutheran Community Care
-    Service: Family Counselling
-    Age: X
-    Gender: X
-    Region: Regional
-    Location: X
-    Keyterm: Family Violence
-    Website: https://www.lccare.org.au/find-help/personal-counselling/
-    Phone: (08) 8562 2688
-    Email: NA
-    Address: NA
+  - organisation: Lutheran Community Care
+    service: Family Counselling
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: violence
+    website: https://www.lccare.org.au/find-help/personal-counselling/
+    phone: (08) 8562 2688
+    email: NA
+    address: NA
     ###
-  - Organisation: Lutheran Community Care
-    Service: Foster Care Service
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: X
-    Keyterm: Family Violence
-    Website: https://www.lccare.org.au/foster-care/
-    Phone: (08) 8337 8787
-    Email: fostercare@lccare.org.au
-    Address: NA
+  - organisation: Lutheran Community Care
+    service: Foster Care Service
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: violence
+    website: https://www.lccare.org.au/foster-care/
+    phone: (08) 8337 8787
+    email: fostercare@lccare.org.au
+    address: NA
     ###
-  - Organisation: Lutheran Community Care
-    Service: Foster Care Service
-    Age: X
-    Gender: X
-    Region: Regional
-    Location: X
-    Keyterm: Family Violence
-    Website: https://www.lccare.org.au/foster-care/
-    Phone: (08) 8337 8787
-    Email: fostercare@lccare.org.au
-    Address: NA
+  - organisation: Lutheran Community Care
+    service: Foster Care Service
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: violence
+    website: https://www.lccare.org.au/foster-care/
+    phone: (08) 8337 8787
+    email: fostercare@lccare.org.au
+    address: NA
     ###
-  - Organisation: Lutheran Community Care
-    Service: Clinical Supervision Service
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: X
-    Keyterm: Medical Health
-    Website: https://www.lccare.org.au/find-help/clinical-supervision/
-    Phone: (08) 8269 9300
-    Email: NA
-    Address: 309 Prospect Road, Blair Athol SA 5084
+  - organisation: Lutheran Community Care
+    service: Clinical Supervision Service
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: medical
+    website: https://www.lccare.org.au/find-help/clinical-supervision/
+    phone: (08) 8269 9300
+    email: NA
+    address: 309 Prospect Road, Blair Athol SA 5084
     ###
-  - Organisation: Lutheran Community Care
-    Service: Clinical Supervision Service
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: X
-    Keyterm: Mental Health
-    Website: https://www.lccare.org.au/find-help/clinical-supervision/
-    Phone: (08) 8269 9300
-    Email: NA
-    Address: 309 Prospect Road, Blair Athol SA 5084
+  - organisation: Lutheran Community Care
+    service: Clinical Supervision Service
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: mental 
+    website: https://www.lccare.org.au/find-help/clinical-supervision/
+    phone: (08) 8269 9300
+    email: NA
+    address: 309 Prospect Road, Blair Athol SA 5084
     ###
-  - Organisation: Lutheran Community Care
-    Service: Emergency Material Relief Service
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: X
-    Keyterm: Financial
-    Website: https://www.lccare.org.au/find-help/financial-hurdles/emergency-relief/
-    Phone: (08) 8269 9300
-    Email: blairathol@lccare.org.au
-    Address: 309 Prospect Road, Blair Athol SA 5084
+  - organisation: Lutheran Community Care
+    service: Emergency Material Relief Service
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: finance
+    website: https://www.lccare.org.au/find-help/financial-hurdles/emergency-relief/
+    phone: (08) 8269 9300
+    email: blairathol@lccare.org.au
+    address: 309 Prospect Road, Blair Athol SA 5084
     ###
-  - Organisation: Lutheran Community Care
-    Service: Emergency Material Relief Service (Appointment Only)
-    Age: X
-    Gender: X
-    Region: Regional
-    Location: X
-    Keyterm: Financial
-    Website: https://www.lccare.org.au/find-help/financial-hurdles/emergency-relief/
-    Phone: (08) 8562 2688
-    Email: barossa@lccare.org.au
-    Address: 26 Second Street, Nuriootpa SA 5355
+  - organisation: Lutheran Community Care
+    service: Emergency Material Relief Service (Appointment Only)
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: finance
+    website: https://www.lccare.org.au/find-help/financial-hurdles/emergency-relief/
+    phone: (08) 8562 2688
+    email: barossa@lccare.org.au
+    address: 26 Second Street, Nuriootpa SA 5355
     ###
-  - Organisation: Salvation Army
-    Service: Emergency Relief, Financial Counselling and Budget Services
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: X
-    Keyterm: Financial
-    Website: https://www.salvationarmy.org.au/adelaidecity/what-we-do/community-care/
-    Phone: (08) 8227 0199
-    Email: adminach@salvationarmy.org.au
-    Address: 277 Pirie St, Adelaide SA 5000
+  - organisation: Salvation Army
+    service: Emergency Relief, Financial Counselling and Budget Services
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: finance
+    website: https://www.salvationarmy.org.au/adelaidecity/what-we-do/community-care/
+    phone: (08) 8227 0199
+    email: adminach@salvationarmy.org.au
+    address: 277 Pirie St, Adelaide SA 5000
     ###
-  - Organisation: Salvation Army
-    Service: General Counselling
-    Age: X
-    Gender: X
-    Region: Metropolitan
-    Location: X
-    Keyterm: Mental Health
-    Website: https://www.salvationarmy.org.au/adelaidecity/what-we-do/community-care/
-    Phone: (08) 8227 0199
-    Email: adminach@salvationarmy.org.au
-    Address: 277 Pirie St, Adelaide SA 5000
+  - organisation: Salvation Army
+    service: General Counselling
+    min_age: 2
+    max_age: 100
+    gender: 
+      - M
+      - F
+    location: metro
+    keyterm: mental
+    website: https://www.salvationarmy.org.au/adelaidecity/what-we-do/community-care/
+    phone: (08) 8227 0199
+    email: adminach@salvationarmy.org.au
+    address: 277 Pirie St, Adelaide SA 5000
     ###
 ---
