@@ -1,13 +1,13 @@
-question: What is you client initals?
+question: What is the clients initals?
 fields:
   - no label: ALRMinitals
 ---
-question: What is the clinets age?
+question: What is the clients age?
 fields:
   - no label: ALRMage
     datatype: integer
 ---
-question: What is the clinets gender?
+question: What is the clients gender?
 fields:
   - no label: ALRMgender
     datatype: radio
@@ -42,11 +42,29 @@ subquestion: |
   for services.
   
   You may select more than one location
+  
+  Click the question icon to see specifics of each region.
 fields:
   - no label: ALRMlocation
     datatype: checkboxes
     choices:
       - Metropolitan Adelaide (within a 20km radius): metro
+        help: | 
+          - Prospect 
+          - Walkerville 
+          - Norwood 
+          - Burnside
       - Port Augusta or Ceduna: APY
+        help: | 
+          - Located on the west coast of the gulf of the Eyre Peninsula 
       - Port Adelaide: port
+        help: | 
+          - North Western Suburbs of Adelaide 
+          - Alberton 
+          - Ethelton
+          - New Port 
+          - Queenstown 
+          - Semaphore South
+          - Port Adelaide
+          - Gillman        
 ---
