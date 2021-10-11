@@ -1,0 +1,261 @@
+---
+mandatory: true
+question: Welcome to the South Australian Court Help Overview  
+subquestion: |
+
+  By answering the following question prompts, you can create and submit a Federal Court Form 1 document. 
+
+  **Disclaimer:** the form complied must be checked by a lawyer. This application does not give legal advice.
+
+
+
+  Do you wish to:
+
+  
+buttons: 
+  - Continue: continue
+  - Exit: leave
+    url: http://www.courts.sa.gov.au/Pages/default.aspx
+---
+mandatory: true
+question: |
+  What court is the file to be completed for?
+
+field: target_variable
+
+choices:
+  - Supreme Court
+  - District Court
+  - Magistrates Court
+  - Federal Court
+  - Federal Circuit Court
+---
+mandatory: true
+
+code: |
+  if target_variable == 'Supreme Court':
+    not_applicable
+
+  if target_variable == 'District Court':
+    not_applicable
+
+  if target_variable == 'Magistrates Court':
+    not_applicable
+---
+event: not_applicable
+question: |
+   This application cannot create a Federal Court Form 1 document for the court you selected. 
+
+subquestion: |
+  It is only applicable to matters for the Federal Court or the Federal Circuit Court.
+
+buttons: 
+  - Restart: restart
+  - Exit: leave
+    url: http://www.courts.sa.gov.au/Pages/default.aspx
+---
+mandatory: true
+question: |
+
+  Begin the Process to Create a Federal Court Form 1 document
+
+subquestion: |
+  This questionnaire will ask you questions that will fill in fields in a Microsoft Word template. The information provided will then be available as a PDF document.
+
+  This letter will be sent by the user to the adverse party to initiate proceedings.
+
+  By continuing, you consent to provide the necessary information to collate a Federal Court Form 1 document.
+
+buttons: 
+  - Restart: restart
+  - Continue: continue
+  - Exit: leave
+    url: http://www.courts.sa.gov.au/Pages/default.aspx
+---
+mandatory: true
+question: |
+
+  What is the name of the applicant?
+
+fields:
+  - First Name: CKApplicantF
+  - Middle Name: CKApplicantM
+    required: false
+  - Last Name: CKApplicantL
+---
+mandatory: true
+question: |
+  What is the name of the respondent?
+
+fields: 
+  - First Name: CKRespondentF
+  - Middle Name: CKRespondentM
+    required: false
+  - Last Name: CKRespondentL
+---
+mandatory: true
+question: |
+  What State or Territory does the matter take place in?
+
+fields:
+  - State or Territory: stateterritory
+    choices:
+      - Western Australia
+      - Northern Territory
+      - Queensland
+      - New South Wales
+      - Victoria
+      - Australian Capital Territory
+      - Tasmania
+      - South Australia
+---
+mandatory: true
+question: |
+  What division does the matter apply to?
+
+fields: 
+  - Divison: ckdivision
+    choices:
+      - Corporations
+      - Criminal
+      - Employment
+      - General
+---
+mandatory: true
+question: |
+  Enter the date the Form will be submitted:
+
+fields: 
+  - Date: CKdate
+    datatype: date
+    default: format_date= 'dd MMMM yyyy'
+---
+mandatory: true
+question: |
+
+  This preliminary form was completed by:
+
+fields:
+  - First Name: CKcapacityF
+  - Middle Name: CKcapacityM
+    required: false
+  - Last Name: CKcapacityL 
+  - Capacity: CKcapacity
+    input type: radio
+    choices:
+      - Applicant
+      - Lawyer for the Applicant
+      - Respondent
+      - Lawyer for the Respondent
+---
+mandatory: true
+Question: |
+  On behalf of:
+
+fields: 
+  - Capacity: CKCapacitybehalf
+    input type: radio
+    choices:
+      -  Applicant, ${CKApplicantF} ${CKApplicantM} ${CKApplicantL}
+      - Respondent, ${CKRespondentF} ${CKRespondentM} ${CKRespondentL}
+---
+mandatory: true
+Question: |
+  What are the details of the law firm representing you (if applicable)?
+
+fields:
+  - Name of Law Firm: CKlawfirm
+    required: false
+  - Address of Law Firm: lfadd
+    required: false
+  - City: lfcity
+    required: false
+  - Post Code: lfpostcode
+    required: false
+  - State: lfstate
+    choices:
+      - Western Australia
+      - Northern Territory
+      - Queensland
+      - New South Wales
+      - Victoria
+      - Australian Capital Territory
+      - Tasmania
+      - South Australia
+    required: false
+  - Telephone: CKtelephone
+    datatype: integer
+    required: false
+  - Fax: CKfax
+    required: false
+  - Email: CKemail
+    datatype: email
+    required: false
+---
+mandatory: true
+question: |
+
+  Review Your Answers
+
+review:    
+  - note: |
+      #### Applicant's Identity
+  - Revisit Applicant's Identity: CKApplicantF
+    button: |
+      The Applicant's Identity is **${ CKApplicantF } ${ CKApplicantM} ${ CKApplicantL }**
+  - note: |
+      #### Respondent's Identity
+  - Revisit Respondents's Identity: CKRespondentF
+    button: |
+      The Applicant's Identity is **${ CKRespondentF } ${ CKRespondentM} ${ CKRespondentL }** 
+  - note: |
+      #### Jurisdictional Matters
+  - Revisit State or Territory: stateterritory
+    button: |
+      The matter will take place in **${ stateterritory }**
+  - Revisit Division: ckdivision
+    button: |
+      The matter will apply to the **${ ckdivision }** division.
+  - note: |
+      #### Date Application will be Submitted
+  - Revisit Date: CKdate
+    button: |
+      The form will be submitted on **${ CKdate }**
+  - note: |
+      #### The Preliminary Form was Completed by
+  - Revisit Identity & Capacity: CKcapacityF
+    button: |
+      The preliminary form was completed by **${ CKcapacityF } ${ CKcapacityM } ${ CKcapacityL }**, the **${ CKcapacity }**
+  - Revisit On Behalf Of: CKCapacitybehalf
+    button: |
+      On behalf of **${ CKCapacitybehalf }**
+  - note: |
+      #### Law Firm Details
+  - Revisit Law Firm Details: CKlawfirm
+    button: |
+      On behalf of **${ CKlawfirm }**
+      
+      Located at: **${ lfadd }, ${ lfcity } ${ lfpostcode }, ${ lfstate }**      
+
+      Telephone: **${ CKtelephone }**      
+
+      Fax: **${ CKfax }**     
+
+      Email: **${ CKemail }**
+
+Continue button field: Confirm
+---
+mandatory: true
+question: |
+  Completed Preliminary Federal Court Form 1 document
+
+subquestion: |
+  Here is your completed preliminary Federal Court Form 1 document with the information you have provided.
+
+
+attachment:
+  name: Standard Federal Court Form 1 document
+  docx template file: Forme1clk.docx
+  valid formats:
+    - pdf
+---
